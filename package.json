@@ -1,38 +1,38 @@
 {
-  "name": "@sushiswap/default-token-list",
-  "version": "17.3.0",
-  "description": "◦ The SushiSwap default token list",
-  "main": "build/sushiswap-default.tokenlist.json",
+  "name": "@finaswap/default-token-list",
+  "version": "1.0.0",
+  "description": "◦ The FinaSwap default token list",
+  "main": "build/finaswap-default.tokenlist.json",
   "scripts": {
     "test": "mocha",
-    "build": "rimraf build && mkdir -p build && node internal/write.js > build/sushiswap-default.tokenlist.json",
+    "build": "rimraf build && mkdir -p build && node internal/write.js > build/finaswap-default.tokenlist.json",
     "prepublishOnly": "npm test && npm run build",
     "sync": "node internal/sync.js"
   },
   "files": [
-    "build/sushiswap-default.tokenlist.json"
+    "build/finaswap-default.tokenlist.json"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sushiswap/default-token-list.git"
+    "url": "git+https://github.com/finaswap/default-token-list.git"
   },
   "keywords": [
-    "sushiswap",
+    "finaswap",
     "default",
     "token",
     "list"
   ],
-  "author": "Matthew Lilley <hello@matthewlilley.com>",
+  "author": "",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/sushiswap/default-token-list/issues"
+    "url": "https://github.com/finaswap/default-token-list/issues"
   },
-  "homepage": "https://github.com/sushiswap/default-token-list#readme",
+  "homepage": "https://github.com/finaswap/default-token-list#readme",
   "devDependencies": {
     "@ethersproject/address": "^5.0.2",
     "@ethersproject/solidity": "^5.3.0",
     "@octokit/rest": "^18.6.2",
-    "@sushiswap/sdk": "^5.0.0-canary.22",
+    "@finaswap/sdk": "^1.0.1",
     "@uniswap/token-lists": "1.0.0-beta.25",
     "ajv": "^6.12.3",
     "chai": "^4.2.0",

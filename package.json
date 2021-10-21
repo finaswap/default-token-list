@@ -1,6 +1,6 @@
 {
   "name": "@finaswap/default-token-list",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "◦ The FinaSwap default token list",
   "main": "build/finaswap-default.tokenlist.json",
   "scripts": {

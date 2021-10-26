@@ -25,8 +25,8 @@
   },
   {
     "name": "FinaToken",
-    "address": "0x4dB99c31039a17F627f26CC831b8DCebbd958CfC",
-    "symbol": "FINA",
+    "address": "0x214640AE606C18F15062d593C701BC8eF0CB00F7",
+    "symbol": "FNA",
     "decimals": 18,
     "chainId": 3
   },
